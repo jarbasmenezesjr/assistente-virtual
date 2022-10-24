@@ -97,9 +97,7 @@ def main():
     aprensentacao = """
                     Olá, eu sou a assistente virtual!
                     """
-
-    aprensentacao = 'Olá Fale'
-    
+        
     print(aprensentacao)
     asyncio.run(gerar_audio(aprensentacao))
 
