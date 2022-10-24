@@ -1,17 +1,17 @@
-# assistente-virtual
+# Assistente Virtual
 Assistente Virtual com reconhecimento por voz, possui integração com API OpenWeatherMap para informar a previsão do tempo, integração com o Twilio para envio de mensagens de WhatsApp e com o Wikipédia para pesquisar o resumo de qualquer texto reconhecido pelo assistente. 
 
-# Executar o Assistente Virtual
+## Executar o Assistente Virtual
 python assistente_virtual.py
 
-# Comandos reconhecidos pelo Assistente Virtual:
-## Previsão do tempo = ['previsão', 'previsao', 'tempo']
-## Envio de mensagens de WhatsApp = ['mensagem', 'zap', 'whatsapp']
-## Pesquisa no Wikipédia = ['wikipedia', 'wikipédia', 'pesquisar', 'buscar']
-## Abrir o Chrome = 'navegador'
-## Abrir o Excel = 'excel'
+## Comandos reconhecidos pelo Assistente Virtual:
+### Previsão do tempo = ['previsão', 'previsao', 'tempo']
+### Envio de mensagens de WhatsApp = ['mensagem', 'zap', 'whatsapp']
+### Pesquisa no Wikipédia = ['wikipedia', 'wikipédia', 'pesquisar', 'buscar']
+### Abrir o Chrome = 'navegador'
+### Abrir o Excel = 'excel'
 
-# Dependências do Assistente Virtual
+## Dependências do Assistente Virtual
 ### SpeechRecognition
 ### gTTS
 ### PyAudio
